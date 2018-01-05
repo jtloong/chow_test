@@ -8,4 +8,9 @@ setup(name='chow_test',
       author_email='joshua.t.loong@gmail.com',
       license='MIT',
       packages=['chow_test'],
+      install_requires=[
+          'sklearn',
+          'pandas',
+          'numpy'
+      ],
       zip_safe=False)
