@@ -36,4 +36,4 @@ Here are the requirements for these paramters:
 
 * Build in functionality for complex linear models
 * Enhance time comparison ability
-* Ability to 
+* Ability to find more breaks in the data
