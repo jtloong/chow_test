@@ -12,3 +12,4 @@ setup(name='chow_test',
           'numpy'
       ],
       zip_safe=False)
+      
