@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='chow_test',
-      version='0.1',
+      version='0.2',
       description='Package to calculate Chow break statistics.',
       url='http://github.com/jtloong/chow_test',
       author='Joshua Loong',
@@ -9,8 +9,6 @@ setup(name='chow_test',
       license='MIT',
       packages=['chow_test'],
       install_requires=[
-          'sklearn',
-          'pandas',
           'numpy'
       ],
       zip_safe=False)
