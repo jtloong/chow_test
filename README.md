@@ -4,8 +4,7 @@ Python module to calculate Chow break statistics.
 The Chow test was developed by econometrician Gregory Chow in 1960 to test whether one regression or two or more regressions best fit the time series data. It actually tests whether there is a structural "break" in the dataset. More information can be found [on Wikipedia](https://en.wikipedia.org/wiki/Chow_test) and this [Statistics How To post](http://www.statisticshowto.com/chow-test/).
 
 Here is the formula:
-
-<img src='http://www.statisticshowto.com/wp-content/uploads/2016/10/chow-test-formula.png'>
+</br><img src='http://www.statisticshowto.com/wp-content/uploads/2016/10/chow-test-formula.png'>
 
 Current version only supports simple linear models with a single x-variable, that have a time-axis in years as integers, and when finding breaks where k = 2.
 
