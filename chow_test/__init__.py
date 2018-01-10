@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression
 
-def calculate(break_point, data, timeColumn, x_column, y_column):
+def f_value(break_point, data, timeColumn, x_column, y_column):
     def find_rss (data, x_column, y_column):
         x = data[[x_column]]
         y = data[y_column]
@@ -20,10 +20,3 @@ def calculate(break_point, data, timeColumn, x_column, y_column):
     chow_denom = (rss_1+rss_2) / (n_1 + n_2 - (2 *2))
     chow = chow_nom / chow_denom
     return chow
-
-
-
-
-# data = pd.read_csv('TrainExer 3-1.csv')
-# chow = calculate(1980, data, 'Year', 'BookMarket', 'LogEqPrem')
-# print(chow)
