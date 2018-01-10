@@ -9,6 +9,8 @@ Here is the formula:
 
 Current version only supports simple linear models with a single x-variable, that have a time-axis in years as integers, and when finding breaks where k = 2.
 
+You can find my blog post about this package [here](http://joshualoong.com/2018/01/05/Building-the-Python-chow-test-Package/).
+
 ## Installation
 Clone this repository, move into the directory, and install with pip:
 ```
