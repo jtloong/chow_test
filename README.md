@@ -25,16 +25,21 @@ import chow_test
 ## Usage
 The function has four parameters:
 ```
-chow_test.f_value(breakpoint, index, y, x)
+chow_test.f_value(y1, x1, y2, x2)
 ```
 Here are the requirements for these parameters:
 
-| Parameter | Requirement                              |
-|-----------|------------------------------------------|
-| breakpoint| A valid year as an int                   |
-| index     | A numpy array of the time-axis in years  |
-| y         | A numpy array of the y-variables         |
-| x         | A numpy array of the x-variables         |
+| Parameter | Requirement                                                                        |
+|-----------|------------------------------------------------------------------------------------|
+| y1        | An array-like variable representing y-value data before the proposed break point   |
+| x1        | An array-like variable representing x-value data before the proposed break point   |
+| y2        | An array-like variable representing y-value data after the proposed break point    |
+| x2        | An array-like variable representing x-value data after the proposed break point    |
+
+## Example
+
+Checkout the tests folder to see an ipython notebook with the chow_test module in use.
+
 
 ## Future Ideas
 
