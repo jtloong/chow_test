@@ -23,10 +23,17 @@ import chow_test
 ```
 
 ## Usage
-The function has four parameters:
+
+The function has four parameters, and be used to find either the f-value or p-value of your Chow test.
 ```
 chow_test.f_value(y1, x1, y2, x2)
 ```
+or
+
+```
+chow_test.p_value(y1, x1, y2, x2)
+```
+
 Here are the requirements for these parameters:
 
 | Parameter | Requirement                                                                        |
@@ -35,6 +42,7 @@ Here are the requirements for these parameters:
 | x1        | An array-like variable representing x-value data before the proposed break point   |
 | y2        | An array-like variable representing y-value data after the proposed break point    |
 | x2        | An array-like variable representing x-value data after the proposed break point    |
+
 
 ## Example
 
