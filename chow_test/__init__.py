@@ -23,7 +23,7 @@ def f_value(y1, x1, y2, x2):
             length: The number of n terms that the data represents
         """
         A = np.vstack([x, np.ones(len(x))]).T
-        rss = np.linalg.lstsq(A, y)[1]
+        rss = np.linalg.lstsq(A, y, rcond=None)[1]
         length = len(y)
         return (rss, length)
 
